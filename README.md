@@ -1,8 +1,9 @@
-# Penlight Lua Libraries
+# Penlight Lua Libraries (for OpenComputers/OPPM)
 
-[![Build Status](https://travis-ci.org/stevedonovan/Penlight.svg)](https://travis-ci.org/stevedonovan/Penlight)
-[![Coverage Status](https://coveralls.io/repos/mpeterv/Penlight/badge.svg?branch=master&service=github)](https://coveralls.io/github/stevedonovan/Penlight?branch=master)
-[![AppVeyor status](https://ci.appveyor.com/api/projects/status/2ypffmsatb5rh9yw/branch/master?svg=true)](https://ci.appveyor.com/project/stevedonovan/penlight/branch/master)
+This is a slightly modified version of [Penlight](https://github.com/stevedonovan/Penlight)
+for [OpenComputers](https://ocdoc.cil.li/) and [OPPM](https://ocdoc.cil.li/tutorial:program:oppm).
+
+oppm register dummy3k/Penlight
 
 ## Why a new set of libraries?
 

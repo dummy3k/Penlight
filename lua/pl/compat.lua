@@ -17,7 +17,11 @@ if isJit then
     compat.jit52 = not loadstring("local goto = 1")
 end
 
-compat.dir_separator = _G.package.config:sub(1,1)
+if _G._OSVERSION == "OpenOS 1.7.2" then
+    compat.dir_separator = '/'
+else
+    compat.dir_separator = _G.package.config:sub(1,1)
+end
 compat.is_windows = compat.dir_separator == '\\'
 
 --- execute a shell command.
